@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Abstractions\CQRS\" />
+    <Folder Include="Abstractions\ILogging\" />
+  </ItemGroup>
+
 </Project>

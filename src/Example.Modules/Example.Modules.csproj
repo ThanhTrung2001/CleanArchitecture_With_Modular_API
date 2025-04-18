@@ -12,7 +12,6 @@
     <Folder Include="ExampleModule\ExampleModule.Application\Helpers\" />
     <Folder Include="ExampleModule\ExampleModule.Application\Services\" />
     <Folder Include="ExampleModule\ExampleModule.Application\Validators\" />
-    <Folder Include="ExampleModule\ExampleModule.Domain\Entities\" />
     <Folder Include="ExampleModule\ExampleModule.Domain\ValueObjects\" />
     <Folder Include="ExampleModule\ExampleModule.Infrastructure\Services\" />
   </ItemGroup>

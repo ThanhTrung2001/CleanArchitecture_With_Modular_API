@@ -1,5 +1,6 @@
-﻿using Example.Application.Repository;
+﻿
 using Example.Infrastructure.Data;
+using Example.SharedKernel.Abstractions.Repository;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -37,12 +38,15 @@ namespace Example.Infrastructure.Implements.Repositories
 
         public Task UpdateAsync(TEntity entity)
         {
-            throw new NotImplementedException();
+            _dbSet.Update(entity);
+            return Task.CompletedTask;
         }
 
-        public Task DeleteAsync(Guid id)
+        public async Task DeleteAsync(Guid id)
         {
-            throw new NotImplementedException();
+            var entity = await GetByIdAsync(id);
+            if (entity != null)
+                _dbSet.Remove(entity);
         }
     }
 

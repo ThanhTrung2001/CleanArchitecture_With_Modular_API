@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Example.Application.Repository
+namespace Example.SharedKernel.Abstractions.Repository
 {
     public interface IGenericRepository<T> where T : class
     {

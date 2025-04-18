@@ -1,8 +1,8 @@
-using Example.Application.Repository;
-using Example.Application.UnitOfWork;
 using Example.Infrastructure.Data;
 using Example.Infrastructure.Implements.Repositories;
 using Example.Infrastructure.Implements.UnitOfWork;
+using Example.SharedKernel.Abstractions.Repository;
+using Example.SharedKernel.Abstractions.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 
@@ -15,7 +15,7 @@ builder.Services.AddDbContext<ExampleDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 //DI setup
-builder.Services.AddScoped<DbContext, ExampleDbContext>();
+
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 

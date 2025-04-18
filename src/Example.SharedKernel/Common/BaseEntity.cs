@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Example.Domain.Common
+namespace Example.SharedKernel.Common
 {
     public class BaseEntity
     {

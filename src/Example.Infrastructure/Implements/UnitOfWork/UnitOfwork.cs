@@ -1,6 +1,6 @@
-﻿using Example.Application.Repository;
-using Example.Application.UnitOfWork;
-using Example.Infrastructure.Implements.Repositories;
+﻿using Example.Infrastructure.Implements.Repositories;
+using Example.SharedKernel.Abstractions.Repository;
+using Example.SharedKernel.Abstractions.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using System;
