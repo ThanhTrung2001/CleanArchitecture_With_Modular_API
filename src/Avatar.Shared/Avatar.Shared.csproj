@@ -9,11 +9,13 @@
   <ItemGroup>
     <Folder Include="Shared.Application\Behaviors\" />
     <Folder Include="Shared.Application\DTOs\" />
-    <Folder Include="Shared.Application\ServiceInterfaces\" />
+    <Folder Include="Shared.Application\Abstractions\" />
     <Folder Include="Shared.Domain\Common\" />
     <Folder Include="Shared.Domain\Entities\" />
     <Folder Include="Shared.Domain\Enums\" />
-    <Folder Include="Shared.Infrastructure\" />
+    <Folder Include="Shared.Infrastructure\Data\Configurations\" />
+    <Folder Include="Shared.Infrastructure\Implements\" />
+    <Folder Include="Shared.Infrastructure\Services\" />
   </ItemGroup>
 
   <ItemGroup>
