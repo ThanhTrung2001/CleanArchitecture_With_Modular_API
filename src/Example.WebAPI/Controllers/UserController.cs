@@ -1,5 +1,6 @@
-﻿using Example.Application.UnitOfWork;
+﻿
 using Example.Domain.Entities;
+using Example.SharedKernel.Abstractions.UnitOfWork;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Example.WebAPI.Controllers

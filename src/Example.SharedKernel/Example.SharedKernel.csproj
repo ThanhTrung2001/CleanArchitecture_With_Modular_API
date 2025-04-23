@@ -7,8 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstractions\CQRS\" />
-    <Folder Include="Abstractions\ILogging\" />
+    <Folder Include="Shared.Infrastructure\" />
+    <Folder Include="Shared.Application\Abstractions\CQRS\" />
+    <Folder Include="Shared.Application\Abstractions\ILogging\" />
   </ItemGroup>
 
 </Project>

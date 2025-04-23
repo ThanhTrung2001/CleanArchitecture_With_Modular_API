@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstractions\ILogging\" />
     <Folder Include="Abstractions\CQRS\" />
     <Folder Include="Common\" />
     <Folder Include="Exceptions\" />
