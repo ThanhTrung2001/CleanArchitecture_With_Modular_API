@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Filters\" />
+    <Folder Include="Logs\" />
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Avatar.Application\Avatar.Application.csproj" />
+    <ProjectReference Include="..\Avatar.Domain\Avatar.Domain.csproj" />
+    <ProjectReference Include="..\Avatar.Infrastructure\Avatar.Infrastructure.csproj" />
+    <ProjectReference Include="..\Avatar.Modules\Avatar.Modules.csproj" />
+    <ProjectReference Include="..\Avatar.Shared\Avatar.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

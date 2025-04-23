@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Auth\Auth.Domain\" />
+    <Folder Include="Auth\Auth.Application\" />
+    <Folder Include="Auth\Auth.Infrastructure\" />
+    <Folder Include="Auth\Auth.API\" />
+    <Folder Include="Farm\" />
+    <Folder Include="City\" />
+    <Folder Include="Castle\" />
+    <Folder Include="Fishing\" />
+    <Folder Include="Suburban\" />
+    <Folder Include="Park\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Avatar.Shared\Avatar.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

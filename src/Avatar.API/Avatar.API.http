@@ -1,0 +1,6 @@
+@Avatar.API_HostAddress = http://localhost:5226
+
+GET {{Avatar.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
