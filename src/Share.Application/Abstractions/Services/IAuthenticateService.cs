@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Avatar.Application.Exxceptions
+namespace Share.Application.Abstractions.Services
 {
-    internal class ApplicationException
+    public interface IAuthenticateService
     {
     }
 }

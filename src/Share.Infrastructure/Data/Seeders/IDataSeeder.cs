@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Avatar.Application.ResultModels
+namespace Share.Infrastructure.Data.Seeders
 {
-    internal class APIResponse
+    internal interface IDataSeeder
     {
+        Task InitSeedDataAsync();
     }
 }

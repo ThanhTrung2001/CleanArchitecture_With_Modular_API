@@ -20,7 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Avatar.Shared\Avatar.Shared.csproj" />
+    <ProjectReference Include="..\Share.Application\Share.Application.csproj" />
+    <ProjectReference Include="..\Share.Domain\Share.Domain.csproj" />
+    <ProjectReference Include="..\Share.Infrastructure\Share.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

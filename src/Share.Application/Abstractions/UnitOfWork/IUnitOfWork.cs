@@ -1,11 +1,12 @@
-﻿using Avatar.Application.Abstractions.Repository;
+﻿
+using Share.Application.Abstractions.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Avatar.Application.Abstractions.UnitOfWork
+namespace Share.Application.Abstractions.UnitOfWork
 {
     public interface IUnitOfWork : IDisposable
     {
@@ -15,4 +16,5 @@ namespace Avatar.Application.Abstractions.UnitOfWork
         Task CommitAsync();
         Task RollbackAsync();
     }
+}
 }

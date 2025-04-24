@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Avatar.Application.Abstractions.Repository
+namespace Share.Application.Abstractions.Repository
 {
     public interface IGenericRepository<T> where T : class
     {

@@ -7,18 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstractions\Services\" />
     <Folder Include="Behaviors\" />
-    <Folder Include="Entities\" />
-    <Folder Include="Handler\Commands\" />
-    <Folder Include="Handler\Queries\" />
-    <Folder Include="Helpers\" />
     <Folder Include="DTOs\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Helpers\" />
     <Folder Include="Validators\" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Avatar.Domain\Avatar.Domain.csproj" />
+    <ProjectReference Include="..\Share.Domain\Share.Domain.csproj" />
   </ItemGroup>
 
 </Project>
