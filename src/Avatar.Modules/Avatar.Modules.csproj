@@ -7,16 +7,29 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Auth\Auth.Domain\" />
-    <Folder Include="Auth\Auth.Application\" />
-    <Folder Include="Auth\Auth.Infrastructure\" />
+    <Folder Include="Auth\Auth.Application\DTOs\" />
+    <Folder Include="Auth\Auth.Application\Handler\" />
+    <Folder Include="Auth\Auth.Application\Exceptions\" />
+    <Folder Include="Auth\Auth.Application\Behaviors\" />
+    <Folder Include="Auth\Auth.Application\Abstractions\" />
+    <Folder Include="Auth\Auth.Application\Validators\" />
+    <Folder Include="Auth\User.Domain\Entities\" />
+    <Folder Include="Auth\User.Domain\Enums\" />
+    <Folder Include="Auth\User.Domain\Helpers\" />
     <Folder Include="Auth\Auth.API\" />
     <Folder Include="Farm\" />
-    <Folder Include="City\" />
-    <Folder Include="Castle\" />
-    <Folder Include="Fishing\" />
-    <Folder Include="Suburban\" />
-    <Folder Include="Park\" />
+    <Folder Include="Admin\" />
+    <Folder Include="Archievement\" />
+    <Folder Include="World\" />
+    <Folder Include="Character\" />
+    <Folder Include="Player\" />
+    <Folder Include="Quest\" />
+    <Folder Include="Guild\" />
+    <Folder Include="Auth\Auth.Infrastructure\Data\Configurations\" />
+    <Folder Include="Auth\Auth.Infrastructure\Extensions\" />
+    <Folder Include="Auth\Auth.Infrastructure\Helpers\" />
+    <Folder Include="Auth\Auth.Infrastructure\Implements\" />
+    <Folder Include="Auth\Auth.Infrastructure\InternalServices\" />
   </ItemGroup>
 
   <ItemGroup>
