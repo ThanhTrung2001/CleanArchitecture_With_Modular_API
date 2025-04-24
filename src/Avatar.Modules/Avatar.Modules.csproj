@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="Auth\Auth.Application\Exceptions\" />
     <Folder Include="Auth\Auth.Application\Behaviors\" />
-    <Folder Include="Auth\Auth.Application\Abstractions\" />
     <Folder Include="Auth\Auth.Application\Handler\" />
     <Folder Include="Auth\Auth.Application\Validators\" />
     <Folder Include="Auth\Auth.Domain\Helpers\" />

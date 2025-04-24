@@ -1,4 +1,4 @@
-﻿using Avatar.Modules.Auth.Auth.Application.Services.AccountService;
+﻿using Avatar.Modules.Auth.Auth.Application.Abstractions.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;

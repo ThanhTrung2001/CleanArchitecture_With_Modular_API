@@ -1,4 +1,5 @@
-﻿using Avatar.Modules.Auth.Auth.Domain.Entities;
+﻿using Avatar.Modules.Auth.Auth.Application.Abstractions.Services;
+using Avatar.Modules.Auth.Auth.Domain.Entities;
 using Share.Application.Abstractions.UnitOfWork;
 using System;
 using System.Collections.Generic;

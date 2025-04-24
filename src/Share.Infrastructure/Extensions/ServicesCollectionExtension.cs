@@ -13,6 +13,7 @@ using Share.Infrastructure.Implements.UnitOfWork;
 using Share.Infrastructure.Data.Seeders;
 using Share.Application.Abstractions.Repository;
 using Share.Infrastructure.Implements.Repository;
+using Share.Infrastructure.Helpers;
 
 //Where we register DI services for the infrastructure layer
 namespace Share.Infrastructure.Extensions
@@ -35,7 +36,9 @@ namespace Share.Infrastructure.Extensions
             //Services
             // Configurations
 
-            //Services DI
+            // Services DI
+
+            //Helper
 
 
         }
