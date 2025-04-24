@@ -7,9 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Abstractions\Services\" />
     <Folder Include="Behaviors\" />
     <Folder Include="Entities\" />
+    <Folder Include="Handler\Commands\" />
+    <Folder Include="Handler\Queries\" />
     <Folder Include="Helpers\" />
+    <Folder Include="DTOs\" />
     <Folder Include="Validators\" />
   </ItemGroup>
 

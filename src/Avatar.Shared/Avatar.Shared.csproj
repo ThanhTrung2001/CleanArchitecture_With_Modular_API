@@ -9,12 +9,17 @@
   <ItemGroup>
     <Folder Include="Shared.Application\Behaviors\" />
     <Folder Include="Shared.Application\DTOs\" />
-    <Folder Include="Shared.Application\Abstractions\" />
-    <Folder Include="Shared.Domain\Common\" />
+    <Folder Include="Shared.Application\Exceptions\" />
+    <Folder Include="Shared.Application\Helpers\" />
+    <Folder Include="Shared.Application\Validators\" />
     <Folder Include="Shared.Domain\Entities\" />
     <Folder Include="Shared.Domain\Enums\" />
+    <Folder Include="Shared.Domain\Helpers\" />
     <Folder Include="Shared.Infrastructure\Data\Configurations\" />
-    <Folder Include="Shared.Infrastructure\Implements\" />
+    <Folder Include="Shared.Infrastructure\Implements\UnitOfWork\" />
+    <Folder Include="Shared.Infrastructure\Implements\Repository\" />
+    <Folder Include="Shared.Infrastructure\Implements\Services\" />
+    <Folder Include="Shared.Infrastructure\Helpers\" />
     <Folder Include="Shared.Infrastructure\Services\" />
   </ItemGroup>
 

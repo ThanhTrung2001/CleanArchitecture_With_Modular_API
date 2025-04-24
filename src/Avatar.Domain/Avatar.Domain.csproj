@@ -10,9 +10,6 @@
     <Folder Include="Entities\" />
     <Folder Include="Enums\" />
     <Folder Include="Exceptions\" />
-    <Folder Include="Handler\Commands\" />
-    <Folder Include="Handler\" />
-    <Folder Include="Handler\Queries\" />
   </ItemGroup>
 
 </Project>
