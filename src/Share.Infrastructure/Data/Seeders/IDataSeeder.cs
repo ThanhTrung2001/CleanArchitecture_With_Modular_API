@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Share.Infrastructure.Data.Seeders
 {
-    internal interface IDataSeeder
+    public interface IDataSeeder
     {
         Task InitSeedDataAsync();
     }

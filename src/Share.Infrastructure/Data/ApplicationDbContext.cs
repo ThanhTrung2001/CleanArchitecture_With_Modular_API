@@ -7,11 +7,14 @@ using System.Threading.Tasks;
 
 namespace Share.Infrastructure.Data
 {
-    internal class ApplicationDbContext : DbContext
+    public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : DbContext(options)
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
-        {
-        }
+        //public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        //{
+        //}
+        //If we use public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : DbContext(options)
+        //We need to remove the constructor above and replace with public class ApplicationDbContext : DbContext
+
         // Define your DbSets (tables) here
         // public DbSet<YourEntity> YourEntities { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

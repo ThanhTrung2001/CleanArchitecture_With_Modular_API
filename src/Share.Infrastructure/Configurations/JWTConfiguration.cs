@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Avatar.Shared.Shared.Infrastructure.Data.Seeders
+namespace Share.Infrastructure.Configurations
 {
-    internal interface IDataSeeder
+    internal class JWTConfiguration
     {
-        Task InitSeedDataAsync();
     }
 }

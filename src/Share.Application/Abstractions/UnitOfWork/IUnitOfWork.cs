@@ -10,11 +10,10 @@ namespace Share.Application.Abstractions.UnitOfWork
 {
     public interface IUnitOfWork : IDisposable
     {
-        IGenericRepository<TEntity> Repository<TEntity>() where TEntity : class;
+        IGenericRepository<T> Repository<T>() where T : class;
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
         Task BeginTransactionAsync();
         Task CommitAsync();
         Task RollbackAsync();
     }
-}
 }
