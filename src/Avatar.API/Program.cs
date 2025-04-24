@@ -1,3 +1,4 @@
+using Avatar.Modules.Auth;
 using Microsoft.EntityFrameworkCore;
 using Share.Application.Abstractions.UnitOfWork;
 using Share.Infrastructure.Data;
@@ -14,7 +15,11 @@ var builder = WebApplication.CreateBuilder(args);
 //builder.Services.AddDbContext<ApplicationDbContext>(options =>
 //    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 //2. Flexible way
+//Main Project Infrastructure Register
 builder.Services.AddInfrastructureServices(builder.Configuration);
+
+//Module Service Register
+builder.Services.AddAuthModuleServices();
 
 //Config CORS
 builder.Services.AddCors(options =>

@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//register 
-namespace Avatar.Modules.Auth
+namespace Avatar.Modules.Auth.Auth.Domain.Enums
 {
-    internal class AuthModule
+    public enum EAccountRole
     {
+        Admin = 1,
+        User = 2
     }
 }

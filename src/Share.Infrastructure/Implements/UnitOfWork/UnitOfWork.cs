@@ -8,16 +8,17 @@ using System.Threading.Tasks;
 using Share.Application.Abstractions.UnitOfWork;
 using Share.Application.Abstractions.Repository;
 using Share.Infrastructure.Implements.Repository;
+using Share.Infrastructure.Data;
 
 namespace Share.Infrastructure.Implements.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly DbContext _context;
+        private readonly ApplicationDbContext _context;
         private readonly Dictionary<Type, object> _repositories = new();
         private IDbContextTransaction? _transaction;
 
-        public UnitOfWork(DbContext context)
+        public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
         }

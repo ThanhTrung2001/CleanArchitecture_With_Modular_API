@@ -22,9 +22,8 @@ namespace Share.Infrastructure.Extensions
         public static void AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
         {
             //Application DB Context Register
-            var connectionString = configuration.GetConnectionString("Avatar2D");
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(connectionString));
+                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
             
             //Data Seeder
             services.AddScoped<IDataSeeder, DataSeeder>();
