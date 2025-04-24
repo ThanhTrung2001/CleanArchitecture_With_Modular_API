@@ -16,11 +16,10 @@
     <Folder Include="Shared.Domain\Enums\" />
     <Folder Include="Shared.Domain\Helpers\" />
     <Folder Include="Shared.Infrastructure\Data\Configurations\" />
-    <Folder Include="Shared.Infrastructure\Implements\UnitOfWork\" />
-    <Folder Include="Shared.Infrastructure\Implements\Repository\" />
+    <Folder Include="Shared.Infrastructure\Data\Migrations\" />
     <Folder Include="Shared.Infrastructure\Implements\Services\" />
     <Folder Include="Shared.Infrastructure\Helpers\" />
-    <Folder Include="Shared.Infrastructure\Services\" />
+    <Folder Include="Shared.Infrastructure\InternalServices\" />
   </ItemGroup>
 
   <ItemGroup>

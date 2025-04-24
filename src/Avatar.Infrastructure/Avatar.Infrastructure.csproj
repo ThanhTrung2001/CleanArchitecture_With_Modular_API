@@ -11,6 +11,7 @@
     <Folder Include="Data\Migrations\" />
     <Folder Include="Implements\Services\" />
     <Folder Include="InternalServices\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
 
   <ItemGroup>
