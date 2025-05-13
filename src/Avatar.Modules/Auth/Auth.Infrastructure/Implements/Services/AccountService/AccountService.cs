@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Avatar.Modules.Auth.Auth.Application.Services.AccountService
+namespace Avatar.Modules.Auth.Auth.Infrastructure.Implements.Services.AccountService
 {
     public class AccountService : IAccountService
     {

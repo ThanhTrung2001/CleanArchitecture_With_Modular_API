@@ -21,7 +21,6 @@
     <Folder Include="Quest\" />
     <Folder Include="Guild\" />
     <Folder Include="Auth\Auth.Infrastructure\Helpers\" />
-    <Folder Include="Auth\Auth.Infrastructure\Implements\" />
     <Folder Include="Auth\Auth.Infrastructure\InternalServices\" />
   </ItemGroup>
 
