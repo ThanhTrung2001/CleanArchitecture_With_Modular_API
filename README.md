@@ -1,3 +1,5 @@
+**Dev** branch is Clean, **Refactor** branch is modular + clean 
+
 # 📘 Clean Architecture in .NET API
 ## **Understanding the 4-Layer Architecture: Domain • Application • Infrastructure • API**
 
